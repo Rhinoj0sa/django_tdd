@@ -1,7 +1,8 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 
 
-def home_page():
-    pass
+def home_page(request):
+    return HttpResponse('<html><title>To-Do lists</title> not found in </html>')
 
 # Create your views here.
